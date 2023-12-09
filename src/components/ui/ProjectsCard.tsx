@@ -24,7 +24,7 @@ const ProjectsCard: FC<ProjectsCardProps> = ({
           alt="spotify"
           width={700}
           height={700}
-          className="aspect-video object-cover"
+          className="h-44 w-full object-contain bg-[#1C1B23]"
         />
         <div className="flex flex-col px-4 py-2 h-24">
           <div className="flex font-bold">{title}</div>

@@ -26,7 +26,7 @@ const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
               item === 'React Js' && 'border border-blue-500/60',
               item === 'Next Js 13' && 'border border-black/60',
               item === 'Node Js' && 'border border-green-500/60',
-              item === 'Express Js' && 'border border-gray-500/60',
+              item === 'Express Js' && 'border border-green-500/60',
               item === 'MySql' && 'border border-blue-500/60',
               item === 'MongoDB' && 'border border-emerald-500/60',
               item === 'PostgreSQL' && 'border border-blue-500/60',

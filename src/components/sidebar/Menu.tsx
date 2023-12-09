@@ -42,7 +42,7 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/ezsnippet/" effect="slideUp">
+      <List link="https://www.youtube.com/@ComputerMozart" effect="slideUp">
         <Video /> Videos
       </List>
 
