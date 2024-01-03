@@ -22,9 +22,11 @@ const Cover: FC<CoverProps> = ({}) => {
                         >
                             <Button variant="primary" sizes={'small'}>
                                 <Instagram />
-                                <span className="hidden md:block">
-                                    Follow me on Instagram
-                                </span>
+                                <a href="https://drive.google.com/file/d/1FFJMkW9o5u2ZxmU5UTCT9PpKn_TN8-RJ/view?usp=sharing">
+                                    <span className="hidden md:block">
+                                        View Resume
+                                    </span>
+                                </a>
                             </Button>
                         </Link>
                     </div>
