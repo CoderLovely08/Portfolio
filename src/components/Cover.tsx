@@ -22,7 +22,7 @@ const Cover: FC<CoverProps> = ({}) => {
                         >
                             <Button variant="primary" sizes={'small'}>
                                 {/* <Instagram /> */}
-                                <span className="hidden md:block">
+                                <span className="block">
                                     View Resume
                                 </span>
                             </Button>

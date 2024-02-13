@@ -17,7 +17,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
                     target='_blank'
                 >
                     <Button variant="primary" sizes={'iconOnly'}>
-                        <Instagram />
+                        Resume
                     </Button>
                 </Link>
             </div>

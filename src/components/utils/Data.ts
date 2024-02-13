@@ -32,7 +32,7 @@ export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
     title: "BIT-Connect",
-    techStack: "ReactJS, Bootstrap, NodeJS, ExpresJS, PostgreSQL, AWS, Python",
+    techStack: "EJS, Bootstrap, NodeJS, ExpresJS, PostgreSQL, AWS, Python",
     imageUrl: "bit-logo-icon.png",
     href: "https://www.bitballarpur.co.in",
   },
@@ -53,7 +53,7 @@ export const projectCard: IProjectSectionCardData[] = [
   {
     id: 4,
     title: "Coaching Institue Landing Page",
-    techStack: "ReactJS, Tailwind CSS",
+    techStack: "ReactJS, Tailwind CSS, Firebase",
     imageUrl: "circular-icon.png",
     href: "https://tie-academy.vercel.app/",
   },
@@ -62,18 +62,32 @@ export const projectCard: IProjectSectionCardData[] = [
 export const moreProjects = [
   {
     id: 1,
+    title: "Startup Blocks",
+    techStack: "ReactJS, Tailwind CSS, NodeJs, ExpressJs, PostgreSQL",
+    icon: "lottery",
+    href: "https://startup-blocks.vercel.app/",
+  },
+  {
+    id: 2,
     title: "GreenYard",
     techStack: "EJS, NodeJS, ExpressJS, Socket.io, PostgreSQL, BootStrap",
     icon: "shirt",
     href: "https://www.greenyard.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "Nike Clone",
     techStack: "ReactJS, Tailwind CSS",
     icon: "lottery",
     href: "https://web-clones-chi.vercel.app/",
   },
+  // {
+  //   id: 4,
+  //   title: "Advance SQL Engine",
+  //   techStack: "Python, PostgreSQL, Pandas",
+  //   icon: "lottery",
+  //   href: "https://web-clones-chi.vercel.app/",
+  // },
 
 ];
 
@@ -110,14 +124,14 @@ export const frontendCard: ISectionCardData[] = [
     snippetCount: 1128,
     progress: 80,
   },
-  {
-    id: 5,
-    title: "Nextjs 13",
-    src: "/tech/frontend/nextjs13.jpeg",
-    exp: "1 day ago",
-    snippetCount: 1128,
-    progress: 80,
-  },
+  // {
+  //   id: 5,
+  //   title: "Nextjs 13",
+  //   src: "/tech/frontend/nextjs13.jpeg",
+  //   exp: "1 day ago",
+  //   snippetCount: 1128,
+  //   progress: 80,
+  // },
 ];
 
 export const backendCard: ISectionCardData[] = [
