@@ -55,7 +55,7 @@ export const projectCard: IProjectSectionCardData[] = [
     title: "Coaching Institue Landing Page",
     techStack: "ReactJS, Tailwind CSS, Firebase",
     imageUrl: "circular-icon.png",
-    href: "https://tie-academy.vercel.app/",
+    href: "https://www.ganeshsir.in/",
   },
 
 ];
