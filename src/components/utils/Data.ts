@@ -41,14 +41,14 @@ export const projectCard: IProjectSectionCardData[] = [
     title: "Realtime Bus Tracking ",
     techStack: "EJS, NodeJS, ExpressJS, Socket.io, PostgreSQL, BootStrap",
     imageUrl: "bus-tracking.png",
-    href: "https://bus-tracking-trbx.onrender.com",
+    href: "https://st-bus-tracking-7618df31511c.herokuapp.com/",
   },
   {
     id: 3,
-    title: "Aptitude Quiz App",
-    techStack: "NodeJs, Express, ReactJs, Material UI, Firebase, PostgreSQL",
-    imageUrl: "quiz.jpg",
-    href: "https://ai-quiz-app.vercel.app/",
+    title: "TutorVerse",
+    techStack: "EJS, Tailwind CSS, NodeJs, ExpressJs, JWT, PostgreSQL",
+    imageUrl: "tutorverse.png",
+    href: "https://tutor-verse-bf8239c97f1d.herokuapp.com/",
   },
   {
     id: 4,
@@ -57,6 +57,7 @@ export const projectCard: IProjectSectionCardData[] = [
     imageUrl: "circular-icon.png",
     href: "https://tie-academy.vercel.app/",
   },
+
 ];
 
 export const moreProjects = [
@@ -69,10 +70,10 @@ export const moreProjects = [
   },
   {
     id: 2,
-    title: "GreenYard",
-    techStack: "EJS, NodeJS, ExpressJS, Socket.io, PostgreSQL, BootStrap",
-    icon: "shirt",
-    href: "https://www.greenyard.onrender.com",
+    title: "TiffinWala",
+    techStack: "EJS, Tailwind CSS, NodeJs, ExpressJs, JWT, PostgreSQL",
+    icon: "lottery",
+    href: "https://tiffin-wala-e82ce1576e23.herokuapp.com/",
   },
   {
     id: 3,
@@ -81,14 +82,6 @@ export const moreProjects = [
     icon: "lottery",
     href: "https://web-clones-chi.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   title: "Advance SQL Engine",
-  //   techStack: "Python, PostgreSQL, Pandas",
-  //   icon: "lottery",
-  //   href: "https://web-clones-chi.vercel.app/",
-  // },
-
 ];
 
 export const frontendCard: ISectionCardData[] = [

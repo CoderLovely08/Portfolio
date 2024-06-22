@@ -18,9 +18,9 @@ const TechStack: FC<TechStackProps> = ({}) => {
             'CSS',
             'Tailwind',
             'Javascript',
-            // 'Typescript',
+            'Flutter',
             'React Js',
-            // 'Next Js 13',
+            'Next Js 13',
             'Bootstrap',
 
           ]}
@@ -28,25 +28,32 @@ const TechStack: FC<TechStackProps> = ({}) => {
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'PHP', 'Java', 'Python']}
+          tech={['Node Js', 'Express Js', 'Dart', 'Python']}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'PostgreSQL', 'SQLite']}
+          tech={['MySQL', 'MongoDB', 'PostgreSQL', 'SQLite']}
         />
         <TechCard
           title="Devops"
           classaName="bg-[#10c0a2]"
           tech={[
             'Docker',
-            // 'Kubernetes',
             'GIT',
-            // 'Jenkins',
-            // 'Ansible',
-            // 'Terraform',
             'Digital Ocean',
             'AWS',
+          ]}
+        />
+        <TechCard
+          title="Languages"
+          classaName="bg-[#10c0a2]"
+          tech={[
+            'Javascript',
+            'Python',
+            'Java',
+            'Dart',
+            'PHP',
           ]}
         />
       </div>
